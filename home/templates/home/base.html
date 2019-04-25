@@ -3,8 +3,6 @@
 <html>
   <head>
     <title>iQonnect Wifi Management</title>
-    <link rel="stylesheet" href="{% static 'css/common.css' %}"/>
-    <script src="{% static 'js/common.js' %}" type="text/javascript"></script>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
@@ -12,6 +10,12 @@
     <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/bootstrap.bundle.min.js' %}" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="{% static 'css/fa/fontawesome.min.css' %}"/>
+    
+    <link rel="stylesheet" href="{% static 'css/common.css' %}"/>
+    <script src="{% static 'js/common.js' %}" type="text/javascript"></script>
+
   </head>
   <body>
     <div class="main">
@@ -19,6 +23,7 @@
           <div class="logo">
             <img src="{% static 'img/User.png' %}">
           </div>
+          <div class="menu"><i class="fa fa-align-justify fa-2x"></i></div>
 
           <div class="user-profile">
             <div class="al-user-profile dropdown">
@@ -29,22 +34,19 @@
       <div class="page-body">
         <aside class="sidebar">
           <ul class="sidebar-list">
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>System Status</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>System Logs</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Wifi Users</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Timer Settings</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Inventory</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Sales Inventory</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Vouchers</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Bandwidth</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Network</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Network</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Portal</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Schedule</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Services</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Security</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Security</span></a></li>
-            <li class="sidebar-list-item"><a class="sidebar-list-link"><i></i><span>Security</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-star fa-lg"></i><span>System Status</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-clipboard fa-lg"></i><span>System Logs</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-users fa-lg"></i><span>Wifi Users</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-clock fa-lg"></i><span>Timer Settings</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-boxes fa-lg"></i><span>Inventory</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-shopping-cart fa-lg"></i><span>Sales Inventory</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-tag fa-lg"></i><span>Vouchers</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-tachometer-alt fa-lg"></i><span>Bandwidth</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-network-wired fa-lg"></i><span>Network</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-file-import fa-lg"></i><span>Portal</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-calendar fa-lg"></i><span>Schedule</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-code-branch fa-lg"></i><span>Services</span></a></li>
+            <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-key fa-lg"></i><span>Security</span></a></li>
           </ul>
         </aside>
         <div class="content">
