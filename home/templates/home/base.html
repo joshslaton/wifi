@@ -12,7 +12,7 @@
     <script src="{% static 'js/bootstrap.bundle.min.js' %}" type="text/javascript"></script>
 
     <link rel="stylesheet" href="{% static 'css/fa/fontawesome.min.css' %}"/>
-    
+
     <link rel="stylesheet" href="{% static 'css/common.css' %}"/>
     <script src="{% static 'js/common.js' %}" type="text/javascript"></script>
 
@@ -49,10 +49,8 @@
             <li class="sidebar-list-item"><a class="sidebar-list-link"><i class="fa fa-key fa-lg"></i><span>Security</span></a></li>
           </ul>
         </aside>
-        <div class="content">
-          <div class="content-top">Page Title | Navigation</div>
-          <div class="panel-body"></div>
-        </div>
+        {% block content %}
+        {% endblock %}
       </div>
     </div>
   </body>

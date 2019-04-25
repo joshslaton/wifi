@@ -72,6 +72,10 @@ body {
   padding: 18px 0 0;
 }
 
+.sidebar-list i {
+  text-align: center;
+}
+
 .sidebar-list-item {
   position: relative;
   /* float: none; */
@@ -106,6 +110,8 @@ i {
 
 /* Content */
 .content {
-  width: calc(100% - 180px);
-  float: left;
+  margin-left: 180px;
+  width: calc(100vw - 180px);
+  height: calc(100vh - 66px);
+  padding: 10px;
 }
